@@ -1,7 +1,5 @@
 # CI/CD Architecture on CloudLab
 
-Split into 3
-
 ## Infrastructure: Terraform & Ansible
 
 **Goal:** Automate environment setup of CloudLab experiments + Deploy base cluster components.
@@ -22,7 +20,7 @@ Split into 3
 
 **Goal:** Build and publish versioned container images automatically for every change.
 
-**Flow:**
+**Flow:**git branch -M main
 
 1. Developer pushes code to GitHub.
 2. GitHub Actions builds Docker images for both the frontend and backend.
