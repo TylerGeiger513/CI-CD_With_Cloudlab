@@ -20,7 +20,7 @@
 
 **Goal:** Build and publish versioned container images automatically for every change.
 
-**Flow:**git branch -M main
+**Flow:**
 
 1. Developer pushes code to GitHub.
 2. GitHub Actions builds Docker images for both the frontend and backend.
